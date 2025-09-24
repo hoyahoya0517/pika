@@ -539,7 +539,7 @@
   }
   .handImg {
     left: calc(75% + 60px);
-    bottom: -30px;
+    bottom: -60px;
   }
   .good {
     position: absolute;
@@ -602,7 +602,7 @@
     width: 536px;
     height: 600px;
     left: calc(25% - 15px);
-    bottom: -96px;
+    bottom: -30px;
   }
   .neckImg img {
     width: 536px;
