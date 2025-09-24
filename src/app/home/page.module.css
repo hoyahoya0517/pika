@@ -539,15 +539,15 @@
   }
   .handImg {
     left: calc(75% + 60px);
-    bottom: 0;
+    bottom: -30px;
   }
   .good {
     position: absolute;
-    top: calc(50% + 45px + 11px);
+    top: calc(50% + 60px + 11px);
     left: calc(50%);
     transform: translate(-50%, -50%);
-    width: 120px;
-    height: 90px;
+    width: 160px;
+    height: 120px;
   }
 
   /* -----------------------------earRing----------------------------- */
@@ -602,6 +602,7 @@
     width: 536px;
     height: 600px;
     left: calc(25% - 15px);
+    bottom: -96px;
   }
   .neckImg img {
     width: 536px;
