@@ -343,7 +343,7 @@
   transform: translateX(-50%);
 }
 .neckImg img {
-  width: 580px;
+  width: 582px;
   height: 700px;
   object-fit: contain;
   display: flex;
@@ -363,7 +363,7 @@
   border-radius: 100%;
 }
 .neckImg2 img {
-  width: 580px;
+  width: 582px;
   height: 700px;
   object-fit: contain;
   display: flex;
@@ -599,12 +599,12 @@
     }
   }
   .neckImg {
-    width: 498px;
+    width: 536px;
     height: 600px;
     left: calc(25% - 15px);
   }
   .neckImg img {
-    width: 498px;
+    width: 536px;
     height: 600px;
   }
   .neck2Main {
