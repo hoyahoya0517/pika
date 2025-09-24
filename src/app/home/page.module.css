@@ -539,7 +539,7 @@
   }
   .handImg {
     left: calc(75% + 60px);
-    bottom: -60px;
+    bottom: -90px;
   }
   .good {
     position: absolute;
@@ -557,7 +557,7 @@
     flex: 1;
   }
   .earImgContainer {
-    left: -40px;
+    left: -30px;
   }
   .earRingProductContainer {
     flex-basis: unset;
@@ -602,7 +602,7 @@
     width: 536px;
     height: 600px;
     left: calc(25% - 15px);
-    bottom: -30px;
+    bottom: -90px;
   }
   .neckImg img {
     width: 536px;
