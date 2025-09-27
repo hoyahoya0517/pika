@@ -349,21 +349,27 @@
   display: flex;
 }
 .neck2Main {
-  height: 380px;
+  height: 400px;
   position: fixed;
-  bottom: 320px;
+  bottom: 300px;
   left: calc(25% - 50px);
   transform: translateX(-50%);
   z-index: 7;
 }
 .neckImg2 {
-  height: 380px;
+  width: 270px;
+  height: 400px;
   z-index: 7;
+  border-radius: 50%;
   overflow: hidden;
-  border-radius: 100%;
+  position: relative;
 }
 .neckImg2 img {
+  position: absolute;
+  top: 0;
+  left: 50%;
   width: 582px;
+  transform: translateX(-50%);
   height: 700px;
   object-fit: contain;
   display: flex;
@@ -371,8 +377,8 @@
 }
 .needNewNecklaceContainer {
   position: absolute;
-  top: 13%;
-  left: 77%;
+  top: 17%;
+  left: 100%;
   transform: translate(-50%, -50%);
   width: 250px;
   height: 150px;
@@ -538,7 +544,7 @@
     padding-right: 6px;
   }
   .handImg {
-    left: calc(75% + 60px);
+    left: calc(75% + 30px);
     bottom: -75px;
   }
   .good {
@@ -609,13 +615,23 @@
     height: 600px;
   }
   .neck2Main {
-    display: none;
+    height: 340px;
+    bottom: 200px;
+    left: calc(25% - 15px);
+  }
+  .neckImg2 {
+    width: 220px;
+    height: 340px;
+    background-color: red;
+  }
+  .neckImg2 img {
+    width: 536px;
+    height: 600px;
   }
 
   .needNewNecklaceContainer {
-    top: unset;
-    bottom: 100px;
-    left: 100px;
+    top: 13%;
+    left: 100%;
   }
   .necklaceProduct {
     flex-basis: calc(100% / 1);

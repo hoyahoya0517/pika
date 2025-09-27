@@ -367,14 +367,14 @@ export default function Home() {
                   </motion.div>
                   <motion.div
                     className={styles.neck2Main}
-                    initial={{ transform: "translateX(-200%)" }}
-                    animate={{ transform: "translateX(-50%)" }}
-                    exit={{ transform: "translateX(-200%)" }}
-                    transition={{ duration: 1, ease: "easeInOut" }}
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    exit={{ opacity: 0 }}
+                    transition={{ delay: 1, duration: 1, ease: "easeInOut" }}
                     style={
                       width > 768 && height < 737
                         ? {
-                            bottom: `calc(${height}px - 737px + 320px)`,
+                            bottom: `calc(${height}px - 737px + 300px)`,
                           }
                         : {}
                     }
