@@ -350,9 +350,9 @@ export default function Home() {
               {isNeckOpen && (
                 <>
                   <motion.div
-                    initial={{ transform: "translateX(-200%)" }}
+                    initial={{ transform: "translateX(-2000px)" }}
                     animate={{ transform: "translateX(-50%)" }}
-                    exit={{ transform: "translateX(-200%)" }}
+                    exit={{ transform: "translateX(-2000px)" }}
                     transition={{ duration: 1, ease: "easeInOut" }}
                     className={styles.neckImg}
                     style={
@@ -367,10 +367,10 @@ export default function Home() {
                   </motion.div>
                   <motion.div
                     className={styles.neck2Main}
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    exit={{ opacity: 0 }}
-                    transition={{ delay: 1, duration: 1, ease: "easeInOut" }}
+                    initial={{ transform: "translateX(-2000px)" }}
+                    animate={{ transform: "translateX(-50%)" }}
+                    exit={{ transform: "translateX(-2000px)" }}
+                    transition={{ duration: 1, ease: "easeInOut" }}
                     style={
                       width > 768 && height < 737
                         ? {

@@ -605,30 +605,28 @@
     }
   }
   .neckImg {
-    width: 536px;
-    height: 600px;
+    width: 441px;
+    height: 530px;
     left: calc(25% - 15px);
-    bottom: -60px;
+    bottom: -90px;
   }
   .neckImg img {
-    width: 536px;
-    height: 600px;
+    width: 441px;
+    height: 530px;
   }
   .neck2Main {
-    height: 340px;
-    bottom: 200px;
+    height: 290px;
+    bottom: 150px;
     left: calc(25% - 15px);
   }
   .neckImg2 {
+    height: 290px;
     width: 220px;
-    height: 340px;
-    background-color: red;
   }
   .neckImg2 img {
-    width: 536px;
-    height: 600px;
+    width: 441px;
+    height: 530px;
   }
-
   .needNewNecklaceContainer {
     top: 13%;
     left: 100%;
@@ -640,7 +638,7 @@
     padding-right: 6px;
   }
   .necklaceProduct img {
-    width: 146px;
+    width: 130px;
   }
   .keep {
     display: none;
