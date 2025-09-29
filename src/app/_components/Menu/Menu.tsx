@@ -50,7 +50,14 @@ export default function Menu() {
 
           {isMenuOpen && (
             <div className={styles.menuMain}>
-              <span onClick={() => router.push("/home")}>HOME</span>
+              <span
+                onClick={() => {
+                  if (pathname === "/home") return;
+                  router.push("/home");
+                }}
+              >
+                HOME
+              </span>
               <span>LOGIN</span>
               <span>CART</span>
               <span>FAQS</span>

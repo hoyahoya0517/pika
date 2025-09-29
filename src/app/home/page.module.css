@@ -563,7 +563,7 @@
     flex: 1;
   }
   .earImgContainer {
-    left: -42px;
+    left: -30px;
   }
   .earRingProductContainer {
     flex-basis: unset;
@@ -608,19 +608,19 @@
     width: 441px;
     height: 530px;
     left: calc(25% - 15px);
-    bottom: -30px;
+    bottom: 0;
   }
   .neckImg img {
     width: 441px;
     height: 530px;
   }
   .neck2Main {
-    height: 290px;
-    bottom: 210px;
+    height: 300px;
+    bottom: 230px;
     left: calc(25% - 15px);
   }
   .neckImg2 {
-    height: 290px;
+    height: 300px;
     width: 220px;
   }
   .neckImg2 img {
@@ -638,7 +638,7 @@
     padding-right: 6px;
   }
   .necklaceProduct img {
-    width: 126px;
+    width: 130px;
   }
   .keep {
     display: none;
