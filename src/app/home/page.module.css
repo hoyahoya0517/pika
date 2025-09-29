@@ -608,7 +608,7 @@
     width: 441px;
     height: 530px;
     left: calc(25% - 15px);
-    bottom: -90px;
+    bottom: -30px;
   }
   .neckImg img {
     width: 441px;
@@ -616,7 +616,7 @@
   }
   .neck2Main {
     height: 290px;
-    bottom: 150px;
+    bottom: 210px;
     left: calc(25% - 15px);
   }
   .neckImg2 {
@@ -638,7 +638,7 @@
     padding-right: 6px;
   }
   .necklaceProduct img {
-    width: 130px;
+    width: 120px;
   }
   .keep {
     display: none;
