@@ -31,7 +31,7 @@
   flex-direction: column;
   position: fixed;
   top: 112px;
-  left: 21.5px;
+  left: 22px;
   gap: 16px;
   z-index: 9999;
 }
