@@ -545,7 +545,7 @@
 
 /* mobile */
 
-@media only screen and (orientation: landscape) {
+@media only screen and (orientation: portrait) {
   @media (max-width: 768px) {
     .ringProduct {
       flex-basis: calc(100% / 1);
@@ -648,7 +648,7 @@
       padding-right: 6px;
     }
     .necklaceProduct img {
-      width: 136px;
+      width: 126px;
     }
     .keep {
       display: none;
@@ -766,7 +766,7 @@
       padding-right: 6px;
     }
     .necklaceProduct img {
-      width: 136px;
+      width: 126px;
     }
     .keep {
       display: none;
