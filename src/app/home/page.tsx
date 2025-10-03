@@ -356,7 +356,7 @@ export default function Home() {
                     transition={{ duration: 1, ease: "easeInOut" }}
                     className={styles.neckImg}
                     style={
-                      width > 768 && height < 430
+                      width > 768 && height > 430
                         ? {
                             bottom: `calc(${height}px - 737px)`,
                           }
@@ -372,7 +372,7 @@ export default function Home() {
                     exit={{ transform: "translateX(-2000px)" }}
                     transition={{ duration: 1, ease: "easeInOut" }}
                     style={
-                      width > 768 && height < 430
+                      width > 768 && height > 430
                         ? {
                             bottom: `calc(${height}px - 737px + 300px)`,
                           }
