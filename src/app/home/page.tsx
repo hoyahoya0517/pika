@@ -242,7 +242,7 @@ export default function Home() {
                   className={styles.earImgContainer}
                 >
                   <div className={styles.earImg}>
-                    {width > 768 ? (
+                    {width > 768 && height > 430 ? (
                       <img src="https://res.cloudinary.com/hoyahoya/image/upload/v1757935267/pika/ear_fkwpbf.png" />
                     ) : (
                       <img src="https://res.cloudinary.com/hoyahoya/image/upload/v1758691515/pika/ear2_xgshgj.png" />
@@ -356,7 +356,7 @@ export default function Home() {
                     transition={{ duration: 1, ease: "easeInOut" }}
                     className={styles.neckImg}
                     style={
-                      width > 768 && height < 737
+                      width > 768 && height < 430
                         ? {
                             bottom: `calc(${height}px - 737px)`,
                           }
@@ -372,7 +372,7 @@ export default function Home() {
                     exit={{ transform: "translateX(-2000px)" }}
                     transition={{ duration: 1, ease: "easeInOut" }}
                     style={
-                      width > 768 && height < 737
+                      width > 768 && height < 430
                         ? {
                             bottom: `calc(${height}px - 737px + 300px)`,
                           }

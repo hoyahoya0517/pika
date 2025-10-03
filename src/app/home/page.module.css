@@ -533,121 +533,6 @@
     flex-basis: calc(100% / 2);
   }
 }
-
-/* mobile */
-
-@media (max-width: 768px) {
-  .ringProduct {
-    flex-basis: calc(100% / 1);
-    padding-bottom: 56px;
-    padding-left: 6px;
-    padding-right: 6px;
-  }
-  .handImg {
-    left: calc(75% + 30px);
-    bottom: -75px;
-  }
-  .good {
-    position: absolute;
-    top: calc(50% + 60px + 11px);
-    left: calc(50%);
-    transform: translate(-50%, -50%);
-    width: 160px;
-    height: 120px;
-  }
-
-  /* -----------------------------earRing----------------------------- */
-
-  .ear {
-    flex-basis: unset;
-    flex: 1;
-  }
-  .earImgContainer {
-    left: -37px;
-  }
-  .earRingProductContainer {
-    flex-basis: unset;
-    flex: 1;
-  }
-  .earRingProduct {
-    flex-basis: calc(100% / 1);
-    padding-bottom: 56px;
-    padding-left: 6px;
-    padding-right: 6px;
-  }
-  .wham {
-    top: calc(50% + 45px + 48px);
-    width: 120px;
-    height: 90px;
-  }
-  @keyframes rotate3 {
-    0% {
-      transform: translate(-50%, -50%) rotate(-28deg);
-    }
-    50% {
-      transform: translate(-50%, -50%) rotate(34deg);
-    }
-    100% {
-      transform: translate(-50%, -50%) rotate(-28deg);
-    }
-  }
-
-  /* -----------------------------necklace----------------------------- */
-  @keyframes needNewNecklaceRotate {
-    0% {
-      transform: translate(-50%, -50%) rotate(0deg) scale(0.8);
-    }
-    50% {
-      transform: translate(-50%, -50%) rotate(180deg) scale(0.8);
-    }
-    100% {
-      transform: translate(-50%, -50%) rotate(360deg) scale(0.8);
-    }
-  }
-  .neckImg {
-    width: 441px;
-    height: 530px;
-    left: calc(25% - 15px);
-    bottom: 0;
-  }
-  .neckImg img {
-    width: 441px;
-    height: 530px;
-  }
-  .neck2Main {
-    height: 300px;
-    bottom: 230px;
-    left: calc(25% - 15px);
-  }
-  .neckImg2 {
-    height: 300px;
-    width: 220px;
-  }
-  .neckImg2 img {
-    width: 441px;
-    height: 530px;
-  }
-  .needNewNecklaceContainer {
-    top: 13%;
-    left: 100%;
-  }
-  .necklaceProduct {
-    flex-basis: calc(100% / 1);
-    padding-bottom: 64px;
-    padding-left: 6px;
-    padding-right: 6px;
-  }
-  .necklaceProduct img {
-    width: 136px;
-  }
-  .keep {
-    display: none;
-  }
-  .wow {
-    display: none;
-  }
-}
-
 @media (max-height: 832px) {
   .earImg {
     display: flex;
@@ -655,5 +540,239 @@
   }
   .earImg img {
     height: 832px;
+  }
+}
+
+/* mobile */
+
+@media only screen and (orientation: landscape) {
+  @media (max-width: 768px) {
+    .ringProduct {
+      flex-basis: calc(100% / 1);
+      padding-bottom: 56px;
+      padding-left: 6px;
+      padding-right: 6px;
+    }
+    .handImg {
+      left: calc(75% + 30px);
+      bottom: -75px;
+    }
+    .good {
+      position: absolute;
+      top: calc(50% + 60px + 11px);
+      left: calc(50%);
+      transform: translate(-50%, -50%);
+      width: 160px;
+      height: 120px;
+    }
+
+    /* -----------------------------earRing----------------------------- */
+
+    .ear {
+      flex-basis: unset;
+      flex: 1;
+    }
+    .earImgContainer {
+      left: -37px;
+    }
+    .earRingProductContainer {
+      flex-basis: unset;
+      flex: 1;
+    }
+    .earRingProduct {
+      flex-basis: calc(100% / 1);
+      padding-bottom: 56px;
+      padding-left: 6px;
+      padding-right: 6px;
+    }
+    .wham {
+      top: calc(50% + 45px + 48px);
+      width: 120px;
+      height: 90px;
+    }
+    @keyframes rotate3 {
+      0% {
+        transform: translate(-50%, -50%) rotate(-28deg);
+      }
+      50% {
+        transform: translate(-50%, -50%) rotate(34deg);
+      }
+      100% {
+        transform: translate(-50%, -50%) rotate(-28deg);
+      }
+    }
+
+    /* -----------------------------necklace----------------------------- */
+    @keyframes needNewNecklaceRotate {
+      0% {
+        transform: translate(-50%, -50%) rotate(0deg) scale(0.8);
+      }
+      50% {
+        transform: translate(-50%, -50%) rotate(180deg) scale(0.8);
+      }
+      100% {
+        transform: translate(-50%, -50%) rotate(360deg) scale(0.8);
+      }
+    }
+    .neckImg {
+      width: 441px;
+      height: 530px;
+      left: calc(25% - 15px);
+      bottom: 0;
+    }
+    .neckImg img {
+      width: 441px;
+      height: 530px;
+    }
+    .neck2Main {
+      height: 300px;
+      bottom: 230px;
+      left: calc(25% - 15px);
+    }
+    .neckImg2 {
+      height: 300px;
+      width: 220px;
+    }
+    .neckImg2 img {
+      width: 441px;
+      height: 530px;
+    }
+    .needNewNecklaceContainer {
+      top: 13%;
+      left: 100%;
+    }
+    .necklaceProduct {
+      flex-basis: calc(100% / 1);
+      padding-bottom: 64px;
+      padding-left: 6px;
+      padding-right: 6px;
+    }
+    .necklaceProduct img {
+      width: 136px;
+    }
+    .keep {
+      display: none;
+    }
+    .wow {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (orientation: landscape) {
+  @media (max-height: 430px) {
+    .ringProduct {
+      flex-basis: calc(100% / 2);
+      padding-bottom: 56px;
+      padding-left: 6px;
+      padding-right: 6px;
+    }
+    .handImg {
+      left: calc(75% + 30px);
+      bottom: unset;
+      top: 60px;
+    }
+    .good {
+      position: absolute;
+      top: calc(50% + 60px + 11px);
+      left: calc(50%);
+      transform: translate(-50%, -50%);
+      width: 160px;
+      height: 120px;
+    }
+
+    /* -----------------------------earRing----------------------------- */
+
+    .ear {
+      flex-basis: 30%;
+    }
+    .earImg {
+      align-items: center;
+    }
+    .earImgContainer {
+      bottom: 60px;
+      left: -0px;
+    }
+    .earRingProductContainer {
+      flex-basis: 70%;
+    }
+    .earRingProduct {
+      flex-basis: calc(100% / 3);
+      padding-bottom: 56px;
+      padding-left: 6px;
+      padding-right: 6px;
+    }
+    .wham {
+      top: calc(50% + 45px + 48px);
+      width: 120px;
+      height: 90px;
+    }
+    @keyframes rotate3 {
+      0% {
+        transform: translate(-50%, -50%) rotate(-28deg);
+      }
+      50% {
+        transform: translate(-50%, -50%) rotate(34deg);
+      }
+      100% {
+        transform: translate(-50%, -50%) rotate(-28deg);
+      }
+    }
+
+    /* -----------------------------necklace----------------------------- */
+
+    @keyframes needNewNecklaceRotate {
+      0% {
+        transform: translate(-50%, -50%) rotate(0deg) scale(0.8);
+      }
+      50% {
+        transform: translate(-50%, -50%) rotate(180deg) scale(0.8);
+      }
+      100% {
+        transform: translate(-50%, -50%) rotate(360deg) scale(0.8);
+      }
+    }
+    .neckImg {
+      width: 441px;
+      height: 530px;
+      left: calc(25% - 15px);
+      bottom: -120px;
+    }
+    .neckImg img {
+      width: 441px;
+      height: 530px;
+    }
+    .neck2Main {
+      height: 300px;
+      bottom: 110px;
+      left: calc(25% - 15px);
+    }
+    .neckImg2 {
+      height: 300px;
+      width: 220px;
+    }
+    .neckImg2 img {
+      width: 441px;
+      height: 530px;
+    }
+    .needNewNecklaceContainer {
+      top: 13%;
+      left: 100%;
+    }
+    .necklaceProduct {
+      flex-basis: calc(100% / 2);
+      padding-bottom: 64px;
+      padding-left: 6px;
+      padding-right: 6px;
+    }
+    .necklaceProduct img {
+      width: 136px;
+    }
+    .keep {
+      display: none;
+    }
+    .wow {
+      display: none;
+    }
   }
 }
